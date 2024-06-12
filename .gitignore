@@ -1,0 +1,42 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/InvoiceApp/dist
+/InvoiceApp/tmp
+/InvoiceApp/out-tsc
+/InvoiceApp/bazel-out
+
+# Node
+/InvoiceApp/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.InvoiceApp/.idea/
+/InvoiceApp/.project
+/InvoiceApp/.classpath
+/InvoiceApp/.c9/
+/InvoiceApp/*.launch
+/InvoiceApp/.settings/
+/InvoiceApp/*.sublime-workspace
+
+# Visual Studio Code
+/InvoiceApp/.vscode/*
+!.InvoiceApp/.vscode/settings.json
+!.InvoiceApp/.vscode/tasks.json
+!.InvoiceApp/.vscode/launch.json
+!.InvoiceApp/.vscode/extensions.json
+.InvoiceApp/.history/*
+
+# Miscellaneous
+/InvoiceApp/.angular/cache
+.InvoiceApp/.sass-cache/
+/InvoiceApp/connect.lock
+/InvoiceApp/coverage
+/InvoiceApp/libpeerconnection.log
+/InvoiceApp/testem.log
+/InvoiceApp/typings
+
+# System files
+.DS_Store
+Thumbs.db
