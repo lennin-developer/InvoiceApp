@@ -22,7 +22,7 @@ export class InvoiceService {
     // });
     // return total;
     //lo mismo de arriba pero con reduce
-    return this.invoice.items.reduce((total, item) => total + item.total(), 0);
+    return this.invoice.items.reduce((total, item) => total + (item.price * item.quantity), 0);
   }
 
 }
